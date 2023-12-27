@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "main" {
+resource "aws_ssm_parameter" "foo" {
 
   for_each  = var.parameters
   name      = each.key
