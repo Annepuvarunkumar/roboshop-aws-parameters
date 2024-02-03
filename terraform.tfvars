@@ -11,3 +11,5 @@ parameters = {
   "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
 
 }
+
+
