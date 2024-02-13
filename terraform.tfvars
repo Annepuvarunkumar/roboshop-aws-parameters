@@ -11,7 +11,7 @@ parameters = {
   "cart.dev.CATALOGUE_HOST"     = { type = "String", value = "catalogue-dev.varundevops.online" }
   "cart.dev.CATALOGUE_PORT"     = { type = "String", value = "80" }
 
-  "shipping.dev.CART_ENDPOINT"  = { type = "String", value = "cart-dev.varundevops.online:80" }
+  "shipping.dev.CART_ENDPOINT"  = { type = "String", value = "cart-dev.varundevops.online" }
   "shipping.dev.DB_HOST"        = { type = "String", value = "dev-mysql-rds-cluster.cluster-crn68o0cyx1v.us-east-1.rds.amazonaws.com" }
 
 
