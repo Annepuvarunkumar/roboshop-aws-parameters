@@ -21,11 +21,15 @@ parameters = {
   "payment.dev.USER_PORT"       = { type = "String", value = "80" }
   "payment.dev.AMQP_HOST"       = { type = "String", value = "rabbitmq-dev.varundevops.online" }
 
+  #  Rabbitmq username and password
   "payment.dev.AMQP_USER"       = { type = "String", value = "roboshop" }
   "payment.dev.AMQP_PASS"       = { type = "String", value = "roboshop123" }
 
+  "dispatch.dev.AMQP_HOST"       = { type = "String", value = "rabbitmq-dev.varundevops.online" }
 
-
+#  Rabbitmq username and password
+  "dispatch.dev.AMQP_USER"       = { type = "String", value = "roboshop" }
+  "dispatch.dev.AMQP_USER"       = { type = "String", value = "roboshop123" }
 
 
   #usually passwords are not preferred to keep under git repo, in companies passwords will be created by manual
