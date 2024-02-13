@@ -29,7 +29,7 @@ parameters = {
 
 #  Rabbitmq username and password
   "dispatch.dev.AMQP_USER"       = { type = "String", value = "roboshop" }
-  "dispatch.dev.AMQP_USER"       = { type = "String", value = "roboshop123" }
+  "dispatch.dev.AMQP_PASS"       = { type = "String", value = "roboshop123" }
 
 
   #usually passwords are not preferred to keep under git repo, in companies passwords will be created by manual
